@@ -2,6 +2,7 @@ jQuery Cross Domain Requests
 ============================
 ### Utility
 This is a very useful tool that allows to get the HTML code of any web page.
+
 ------
 ### Live preview
 Before start to use it, maybe you want see it working. If you want this, choose one of the following suggestions:
