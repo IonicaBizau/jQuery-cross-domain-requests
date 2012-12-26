@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Get HTML code from any web page</title>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.xdomainajax.js"></script>
+</head>
+<body>
+    <center>
+        <h1 style="font-size: 20px">This is the Google.com HTML code.</h1>
+        <h1 style="font-size: 10px">Try <a href="index2.html">index2.html</a> to get the html content of a webpage specified into a textbox.</h1>
+        <script>
+        $.ajax({
+            url: 'http://google.com',
+            type: 'GET',
+            success: function(res) {
+                var headline = res.responseText;
+                htmlCodeTextArea.value = headline;
+            }
+        });
+        </script>
+        <textarea style="width: 90%; height: 500px;" id="htmlCodeTextArea"></textarea>
+    <center>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Get HTML code from any web page</title>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.xdomainajax.js"></script>
+    <script src="js/clientJs.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
+</head>
+<body>
+    <center>
+        <h1 style="font-size: 20px">Get HTML code from any Web page</h1>
+        Insert any Web page URL in this textbox: <input id="url" type="text" placeholder="e. g. http://google.com"/><button class="button" onclick="getHTMLContent(document.getElementById('url').value)">Get the HTML code.</button><br/>
+        <div id="loaded"><h1 class='contentText'>Information about loading HTML code.</h1></div>
+        <textarea style="width: 90%; height: 500px;" id="htmlCodeTextArea"></textarea>
+    <center>
+</body>
+</html>

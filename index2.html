@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Get HTML code from any web page</title>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.xdomainajax.js"></script>
+</head>
+<body>
+    <center>
+        <h1 style="font-size: 20px">Get the HTML code of any Web page</h1>
+        <h1 style="font-size: 10px">Try <a href="index3.html">index3.html</a> for a better graphical interface.</h1>
+        URL: <input type="text" id="url"/><input type="button" onclick="getHTML(document.getElementById('url').value)" value="OK"/>
+        <script>
+        function getHTML(url){
+            $.ajax({
+                url: url,
+                type: 'GET',
+                success: function(res) {
+                    var headline = res.responseText;
+                    htmlCodeTextArea.value = headline;
+                }
+            });
+        }
+        </script>
+        <textarea style="width: 90%; height: 500px;" id="htmlCodeTextArea"></textarea>
+    <center>
+</body>
+</html>
