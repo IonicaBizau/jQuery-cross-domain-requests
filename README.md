@@ -1,10 +1,13 @@
 jQuery Cross Domain Requests
 ============================
-
 ### Utility
 This is a very useful tool that allows to get the HTML code of any web page.
 
---------------
+### Live preview
+Before start to use it, maybe you want see it working. If you want this, choose one of the following suggestions:
+ * <a href="http://htmlpreview.github.com/?https://raw.github.com/IonicaBizau/jQuery-cross-domain-requests/master/index1.html">Index1.html</a> (It's reccomended to start here your tour.)
+ * <a href="http://htmlpreview.github.com/?https://raw.github.com/IonicaBizau/jQuery-cross-domain-requests/master/index2.html">Index2.html</a> 
+ * <a href="http://htmlpreview.github.com/?https://raw.github.com/IonicaBizau/jQuery-cross-domain-requests/master/index3.html">Index3.html</a> 
 
 ### How to use it
 Download the Javascript files from "js" folder, and import them into your HTML file.
