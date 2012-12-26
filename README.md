@@ -10,6 +10,7 @@ Before start to use it, maybe you want see it working. If you want this, choose 
  * The basic part, but you can input an URL where you want to make the request: <a target="_blank" href="http://htmlpreview.github.com/?https://raw.github.com/IonicaBizau/jQuery-cross-domain-requests/master/index2.html">Index2.html</a> 
  * This contains nice CSS styles: border, shadow, and more: <a target="_blank" href="http://htmlpreview.github.com/?https://raw.github.com/IonicaBizau/jQuery-cross-domain-requests/master/index3.html">Index3.html</a> 
 
+------
 ### How to use it
 Download the Javascript files from "js" folder, and import them into your HTML file.
 For getting the HTML code of your web page, you will add this script into your HTML file:
@@ -25,8 +26,11 @@ For getting the HTML code of your web page, you will add this script into your H
   });
 //</ script>
 ```
+
+------
 ### How it works
 In short, this script uses YQL, which allows us to make cross-domain GET requests!
 
+------
 ### Screenshot
 ![Screenshot](http://i48.tinypic.com/3007hfn.png)
