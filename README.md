@@ -32,5 +32,5 @@ For getting the HTML code of your web page, you will add this script into your H
 In short, this script uses YQL, which allows us to make cross-domain GET requests!
 
 ------
-### Screenshot
+### Screenshoot
 <a href="http://htmlpreview.github.com/?https://raw.github.com/IonicaBizau/jQuery-cross-domain-requests/master/index3.html"><img src="http://i48.tinypic.com/3007hfn.png"></a>
