@@ -31,6 +31,7 @@ function getHTMLContent(url){
     if((url.trim() === "") || (url.indexOf("http://") === -1) || (url.replace("http://", "").trim() === "")) {
         alert("Insert a valid URL. It has start with \"http://\".");
         started = false;
+	t = 0;
         return;
     }
 
@@ -39,7 +40,7 @@ function getHTMLContent(url){
     loaded = document.getElementById('loaded');
     loaded.style.background = "red";
     loaded.style.borderColor = "darkred";
-    loaded.innerHTML = "<h1 class='contentText'>Loading the HTML of " + url + "<div id='timOut'></div></h1>"
+    loaded.innerHTML = "<h1 class='contentText'>Loading the HTML of <a target=\"_blank\" href='" + url + "'>" + url + "</a><div id='timOut'></div></h1>"
     timOut = document.getElementById('timOut');
     started = true;
 
@@ -57,7 +58,7 @@ function getHTMLContent(url){
             loaded.style.background = "green";
             loaded.style.borderColor = "darkgreen";
             started = false;
-            loaded.innerHTML = "<h1 class='contentText'>Successfully loaded HTML code of " + url + "</h1>";
+            loaded.innerHTML = "<h1 class='contentText'>Successfully loaded HTML code of <a target=\"blank\" href='" + url + "'>" + url + "</a></h1>";
         }
     });
 }
