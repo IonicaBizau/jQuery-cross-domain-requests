@@ -1,4 +1,8 @@
-body {
+    a {
+	color: white;
+    }    
+
+    body {
         font-family: Ubuntu;
     }
 
