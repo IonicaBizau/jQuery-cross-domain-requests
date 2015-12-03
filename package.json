@@ -1,0 +1,59 @@
+{
+  "name": "jquery-cross-domain-requests",
+  "version": "1.0.0",
+  "description": "Make cross domain requests using jQuery and YQL.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IonicaBizau/jQuery-cross-domain-requests.git"
+  },
+  "keywords": [
+    "cross",
+    "domain",
+    "requests"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/jQuery-cross-domain-requests/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/jQuery-cross-domain-requests#readme",
+  "blah": {
+      "ex_img": "http://i48.tinypic.com/3007hfn.png",
+      "ex_url": "http://htmlpreview.github.com/?https://raw.github.com/IonicaBizau/jQuery-cross-domain-requests/master/index3.html",
+      "description": [
+        { "h2": "Live preview" },
+        { "p": "Before start to use it, maybe you want see it working. If you want this, choose one of the following suggestions:" },
+        {
+            "ul": [
+                "[Index1.html](http://htmlpreview.github.com/?https://raw.github.com/IonicaBizau/jQuery-cross-domain-requests/master/index1.html): Only the basic part. It gets the Google.com HTML code.",
+                "[Index2.html](http://htmlpreview.github.com/?https://raw.github.com/IonicaBizau/jQuery-cross-domain-requests/master/index2.html): The basic part, but you can input an URL where you want to make the request.",
+                "[Index3.html](http://htmlpreview.github.com/?https://raw.github.com/IonicaBizau/jQuery-cross-domain-requests/master/index3.html): This contains nice CSS styles: border, shadow, and more."
+            ]
+        },
+        { "h3": "How to use it" },
+        { "p": "Download the Javascript files from `js` folder, and import them into your HTML file." },
+        { "p": "For getting the HTML code of your web page, you will just call:" },
+        {
+            "code": {
+                "language": "js",
+                "content": [
+                    "$.ajax({",
+                    "    url: 'http://google.com', // Or your web page link",
+                    "    type: 'GET',",
+                    "    success: function(res) {",
+                    "        var headline = res.responseText;",
+                    "        htmlCodeTextArea.value = headline;",
+                    "    }",
+                    "});"
+                ]
+            }
+        },
+        { "h3": "How it works" },
+        { "p": "This application uses YQL, which allows us to make cross-domain GET requests!" }
+      ]
+  }
+}

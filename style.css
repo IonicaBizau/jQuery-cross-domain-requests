@@ -1,64 +1,64 @@
-    a {
-	color: white;
-    }    
+a {
+    color: white;
+}
 
-    body {
-        font-family: Ubuntu;
-    }
+body {
+    font-family: Ubuntu;
+}
 
-    textarea, input[type="text"] {
-        background: none repeat scroll 0 0 #EDFFC8;
-        border: 2px solid green;
-        border-radius: 5px 5px 5px 5px;
-        box-shadow: 0 0 2px black;
-        margin: 0 5px;
-        padding: 5px;
-    }
+textarea, input[type="text"] {
+    background: none repeat scroll 0 0 #EDFFC8;
+    border: 2px solid green;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 2px black;
+    margin: 0 5px;
+    padding: 5px;
+}
 
-    .contentText {
-        text-shadow: 0 0 3px black;
-        font-family: Ubuntu;
-        font-size: 20px;
-        color: white;
-    }
+.contentText {
+    text-shadow: 0 0 3px black;
+    font-family: Ubuntu;
+    font-size: 20px;
+    color: white;
+}
 
-    #loaded {
-        padding: 10px;
-        background: none repeat scroll 0 0 green;
-        height: 60px;
-        margin: 10px 0;
-        width: 700px;
-        border: 2px darkgreen solid;
-        box-shadow: 0 0 3px black;
-        border-radius: 10px;
-    }
+#loaded {
+    padding: 10px;
+    background: none repeat scroll 0 0 green;
+    height: 60px;
+    margin: 10px 0;
+    width: 700px;
+    border: 2px darkgreen solid;
+    box-shadow: 0 0 3px black;
+    border-radius: 10px;
+}
 
-    .button {
-	    -moz-box-shadow:inset 0px 1px 3px 0px #a4e271;
-	    -webkit-box-shadow:inset 0px 1px 3px 0px #a4e271;
-	    box-shadow:inset 0px 1px 3px 0px #a4e271;
-	    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #89c403), color-stop(1, #77a809) );
-	    background:-moz-linear-gradient( center top, #89c403 5%, #77a809 100% );
-	    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#89c403', endColorstr='#77a809');
-	    background-color:#89c403;
-	    -moz-border-radius:5px;
-	    -webkit-border-radius:5px;
-	    border-radius:5px;
-	    border:1px solid #74b807;
-	    display:inline-block;
-	    color:#ffffff;
-	    font-family:arial;
-	    font-size:15px;
-	    font-weight:bold;
-	    padding:5px 24px;
-	    text-decoration:none;
-	    text-shadow:1px 1px 0px #528009;
-    }.button:hover {
-	    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #77a809), color-stop(1, #89c403) );
-	    background:-moz-linear-gradient( center top, #77a809 5%, #89c403 100% );
-	    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77a809', endColorstr='#89c403');
-	    background-color:#77a809;
-    }.button:active {
-	    position:relative;
-	    top:1px;
-    }
+.button {
+    -moz-box-shadow:inset 0px 1px 3px 0px #a4e271;
+    -webkit-box-shadow:inset 0px 1px 3px 0px #a4e271;
+    box-shadow:inset 0px 1px 3px 0px #a4e271;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #89c403), color-stop(1, #77a809) );
+    background:-moz-linear-gradient( center top, #89c403 5%, #77a809 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#89c403', endColorstr='#77a809');
+    background-color:#89c403;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    border:1px solid #74b807;
+    display:inline-block;
+    color:#ffffff;
+    font-family:arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:5px 24px;
+    text-decoration:none;
+    text-shadow:1px 1px 0px #528009;
+}.button:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #77a809), color-stop(1, #89c403) );
+    background:-moz-linear-gradient( center top, #77a809 5%, #89c403 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77a809', endColorstr='#89c403');
+    background-color:#77a809;
+}.button:active {
+    position:relative;
+    top:1px;
+}
