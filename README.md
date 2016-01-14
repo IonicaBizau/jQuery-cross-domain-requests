@@ -1,6 +1,6 @@
-# jquery-cross-domain-requests [![Support this project][donate-now]][paypal-donations]
+# jquery-cross-domain-requests [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/jquery-cross-domain-requests.svg)](https://www.npmjs.com/package/jquery-cross-domain-requests) [![Downloads](https://img.shields.io/npm/dt/jquery-cross-domain-requests.svg)](https://www.npmjs.com/package/jquery-cross-domain-requests) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
-Make cross domain requests using jQuery and YQL.
+> Make cross domain requests using jQuery and YQL.
 
 ## Live preview
 
