@@ -1,3 +1,4 @@
+
 # jquery-cross-domain-requests [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/jquery-cross-domain-requests.svg)](https://www.npmjs.com/package/jquery-cross-domain-requests) [![Downloads](https://img.shields.io/npm/dt/jquery-cross-domain-requests.svg)](https://www.npmjs.com/package/jquery-cross-domain-requests) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Make cross domain requests using jQuery and YQL.
@@ -6,6 +7,7 @@
 
 Before start to use it, maybe you want see it working. If you want this, choose one of the following suggestions:
 
+
  - [Index1.html](http://htmlpreview.github.com/?https://raw.github.com/IonicaBizau/jQuery-cross-domain-requests/master/index1.html): Only the basic part. It gets the Google.com HTML code.
  - [Index2.html](http://htmlpreview.github.com/?https://raw.github.com/IonicaBizau/jQuery-cross-domain-requests/master/index2.html): The basic part, but you can input an URL where you want to make the request.
  - [Index3.html](http://htmlpreview.github.com/?https://raw.github.com/IonicaBizau/jQuery-cross-domain-requests/master/index3.html): This contains nice CSS styles: border, shadow, and more.
@@ -13,6 +15,7 @@ Before start to use it, maybe you want see it working. If you want this, choose 
 ### How to use it
 
 Download the Javascript files from `js` folder, and import them into your HTML file.
+
 
 For getting the HTML code of your web page, you will just call:
 
@@ -30,12 +33,14 @@ $.ajax({
 
 This application uses YQL, which allows us to make cross-domain GET requests!
 
+
 [![jquery-cross-domain-requests](http://i48.tinypic.com/3007hfn.png)](http://htmlpreview.github.com/?https://raw.github.com/IonicaBizau/jQuery-cross-domain-requests/master/index3.html)
 
-## How to contribute
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## License
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
