@@ -1,6 +1,6 @@
 {
   "name": "jquery-cross-domain-requests",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Make cross domain requests using jQuery and YQL.",
   "main": "lib/index.js",
   "scripts": {
@@ -78,6 +78,7 @@
     "src/",
     "resources/",
     "menu/",
+    "scripts/",
     "cli.js",
     "index.js"
   ]
