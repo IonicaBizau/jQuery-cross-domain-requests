@@ -9,6 +9,7 @@
 
 ## Live preview
 
+
 Before start to use it, maybe you want see it working. If you want this, choose one of the following suggestions:
 
 
@@ -17,6 +18,7 @@ Before start to use it, maybe you want see it working. If you want this, choose 
  - [Index3.html](http://htmlpreview.github.com/?https://raw.github.com/IonicaBizau/jQuery-cross-domain-requests/master/index3.html): This contains nice CSS styles: border, shadow, and more.
 
 ### How to use it
+
 
 Download the Javascript files from `js` folder, and import them into your HTML file.
 
@@ -33,7 +35,9 @@ $.ajax({
     }
 });
 ```
+
 ### How it works
+
 
 This application uses YQL, which allows us to make cross-domain GET requests!
 
