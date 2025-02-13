@@ -1,6 +1,6 @@
 {
   "name": "jquery-cross-domain-requests",
-  "version": "1.1.11",
+  "version": "1.1.12",
   "description": "Make cross domain requests using jQuery and YQL.",
   "main": "lib/index.js",
   "scripts": {
@@ -81,6 +81,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
